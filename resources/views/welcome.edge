@@ -1,0 +1,16 @@
+@layout('layouts.dashboard')
+@section('section')
+  @!component('components.campaign-card' , imageURL="campaign/campaign_Img2.png" ,username ="NYKE")
+@endsection
+@section('totalpeople')
+  @!component('components.TotalPeople' , heading="Total Calculation" ,number="26" ,imgurl="dashboard/bikaner.jpg", name="Creator")
+@endsection
+@section('totalpeople2')
+  @!component('components.TotalPeople' , heading="Fan Club" ,number="1723" ,imgurl="dashboard/bikaner.jpg" ,name="Fans")
+@endsection
+@section('knowmore')
+  @!component('components.KnowMore' ,heading="Audience" ,number="344.4 K")
+@endsection
+@section('graph')
+  @!component('components.barGraph')
+@endsection

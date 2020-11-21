@@ -1,0 +1,54 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- UIkit JS -->
+    
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit-icons.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=latin-ext"
+      rel="stylesheet">
+      
+      {{ style('style.css') }}
+  
+    {{--  {{ style('/css/style.css') }}  --}}
+  
+  
+  </head>
+
+  <body>
+      <div class="ml-10 mt-10">
+        <img src="dashboard/FINCHOGOG 1.png" alt="" height="250" width="250">
+      </div>
+      <div class="flex">
+        <div class="w-1/3"></div>
+        <div class="w-1/3 ">
+        <h1 class="text-3xl font-bold">Tell us some more about the awesome product that you want to show to the world! </h1>
+          <p class="text-xl mt-16" style="margin-bottom: -21px">What do you call your product?</p>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="position:relative; top:28px; left:20px"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+          <div style="border: 1px solid gray" class="h-10 rounded-xl">
+            <input type="text" placeholder="This is pretty awesome" class="placeholder-edit">
+          </div>
+          <p class="text-xl mt-10">How is the product delivered? </p>
+          <div class="flex">
+              <a href="#"><div class="border border-black p-5 mr-5">
+                    <img src="campaign/campaign_Img2.png" alt="">
+                    <h1 class="text-base font-semibold text-center mt-2">Digital Product</h1>
+              </div></a>
+              <a href="#"><div class="border border-black p-5 ml-5">
+                <img src="campaign/campaign_Img2.png" alt="">
+                <h1 class="text-base font-semibold text-center mt-2">Physical Product</h1>
+          </div></a>
+          </div>
+          <p class="text-xl mt-10">Tell us about it!</p>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Type here...." class="w-full border"></textarea>
+          <div class="float-left mt-10" >
+            <button type="button" class="rounded-l-full rounded-r-full w-24 h-12 text-white font-bold p-3 bg-gradient-gray-to-darkGray outline-none">Back</button>
+        </div>
+          <div class="float-right mt-10" >
+              <button type="button" class="rounded-l-full rounded-r-full w-24 h-12 text-white font-bold p-3 bg-gradient-blue-to-purple outline-none">Next</button>
+          </div>
+        </div>
+      </div>
+
+  </body>

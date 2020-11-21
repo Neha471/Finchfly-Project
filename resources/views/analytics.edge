@@ -1,0 +1,22 @@
+@layout('layouts.analytics')
+@section('totalpeople')
+  @!component('components.TotalPeople' , heading="Total Collaboration" ,number="26" ,imgurl="dashboard/bikaner.jpg" ,name="Creators")
+@endsection
+@section('knowmore')
+  @!component('components.KnowMore' ,heading="Audience" ,number="344.4 K")
+@endsection
+@section('knowmore1')
+@!component('components.KnowMore' ,heading="Audience" ,number="344.4 K")
+@endsection
+@section('knowmore2')
+@!component('components.KnowMore' ,heading="Audience" ,number="344.4 K")
+@endsection
+@section('graph')
+  @!component('components.barGraph')
+@endsection
+@section('piechart')
+  @!component('components.piechart' ,name="Deliverable added" ,number="35")
+@endsection
+@section('piechart1')
+  @!component('components.piechart' ,name="Social Engagement" ,number="4,235")
+@endsection
